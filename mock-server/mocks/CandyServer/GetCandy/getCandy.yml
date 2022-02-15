@@ -1,0 +1,14 @@
+- request:
+    url: /candy
+    method: GET
+  response:
+    status: 200
+    headers:
+      content-type: application/json
+    body: 
+     '
+       { 
+          "like": true, 
+          "whoLikes": "Charlinho"
+       }
+     '

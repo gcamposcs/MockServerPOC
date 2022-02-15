@@ -1,0 +1,14 @@
+version: '3'
+
+services:
+  stubby:
+    container_name: stubby_services
+    build: ../mock-server/
+    volumes:
+      - ./mock-server:/mocks
+      - ./entrypoint.sh:/entrypoint.sh
+    command: /bin/bash ./entrypoint.sh -d /mocks/init.yml
+    ports:
+      - 8882:8882
+      - 7443:7443
+      - 8889:8889

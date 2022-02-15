@@ -1,0 +1,28 @@
+- request:
+    url: /candy
+    method: GET
+  response:
+    status: 200
+    headers:
+      content-type: application/json
+    body: 
+     '
+       { 
+          "like": true, 
+          "whoLikes": "Charlinho"
+       }
+     '
+- request:
+    url: /potato
+    method: GET
+  response:
+    status: 200
+    headers:
+      content-type: application/json
+    body: 
+     '
+       { 
+          "like": true, 
+          "whoLikes": "Charlinho"
+       }
+     '

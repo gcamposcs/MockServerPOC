@@ -1,0 +1,16 @@
+{
+    "[json]": {
+      "editor.codeActionsOnSave": {
+        "source.fixAll": false
+      },
+    },
+    "editor.codeActionsOnSave": {
+      "source.fixAll": true
+    },
+    "eslint.codeActionsOnSave.mode": "all",
+    "eslint.nodePath": "src/node_modules/.bin/eslint",
+    "eslint.workingDirectories": [
+      "./",
+    ],
+    "typescript.preferences.importModuleSpecifier": "relative"
+  }
